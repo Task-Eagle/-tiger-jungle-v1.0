@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Jungle Tiger Run</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="800" height="300"></canvas>
+        <div id="ui-layer">
+            <div id="score">Puntos: 0</div>
+            <div id="game-over" class="hidden">
+                <h1>¡FIN DEL JUEGO!</h1>
+                <p>Toca la pantalla o presiona Espacio para reiniciar</p>
+            </div>
+        </div>
+        <div id="controls">
+            <button id="jumpBtn">¡SALTAR!</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
