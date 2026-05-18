@@ -1,0 +1,21 @@
+{
+  "short_name": "JungleRun",
+  "name": "Jungle Tiger Runner PWA",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?w=192&h=192&fit=crop", 
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?w=512&h=512&fit=crop",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#081c15",
+  "theme_color": "#1a4331",
+  "display": "standalone",
+  "orientation": "landscape"
+}
